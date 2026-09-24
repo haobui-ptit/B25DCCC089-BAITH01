@@ -1,4 +1,4 @@
-/* --- RESET & BIẾN MÀU SẮC --- */
+
 :root {
   --bg-color: #ffffff;
   --bg-secondary: #f8fafc;
@@ -74,7 +74,7 @@ body {
   background-color: var(--bg-secondary);
 }
 
-/* --- HEADER & NAVIGATION (FLEXBOX) --- */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -145,7 +145,7 @@ body {
   display: none;
 }
 
-/* --- HERO SECTION (FLEXBOX) --- */
+
 .hero-section {
   padding: 90px 0 60px;
 }
