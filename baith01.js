@@ -111,13 +111,11 @@ document.addEventListener("DOMContentLoaded", () => {
       isValid = false;
     }
 
-    // Validate Lời nhắn (>= 10 ký tự)
     if (messageInput.value.trim().length < 10) {
       document.getElementById("message-error").textContent = "Lời nhắn phải có tối thiểu 10 ký tự.";
       isValid = false;
     }
 
-    // Nếu hợp lệ
     if (isValid) {
       successMsg.style.display = "block";
       form.reset();

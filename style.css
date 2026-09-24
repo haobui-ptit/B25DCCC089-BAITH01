@@ -236,7 +236,7 @@ body {
   color: var(--primary);
 }
 
-/* --- SKILLS SECTION (GRID) --- */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -273,7 +273,7 @@ body {
   color: var(--text-muted);
 }
 
-/* --- PROJECTS SECTION (GRID & SEARCH) --- */
+
 .filter-wrapper {
   max-width: 650px;
   margin: 0 auto 30px;
@@ -383,7 +383,7 @@ body {
   gap: 6px;
 }
 
-/* --- CONTACT FORM --- */
+
 .contact-container {
   max-width: 550px;
   margin: 0 auto;
@@ -450,7 +450,7 @@ body {
   margin-top: 10px;
 }
 
-/* --- FOOTER --- */
+
 .footer {
   border-top: 1px solid var(--border-color);
   padding: 24px 0;
@@ -480,9 +480,9 @@ body {
   color: var(--primary);
 }
 
-/* --- RESPONSIVE DESIGN (2 BREAKPOINTS: TABLET & MOBILE) --- */
 
-/* Breakpoint 1: Tablet (<= 768px) */
+
+
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column-reverse;
