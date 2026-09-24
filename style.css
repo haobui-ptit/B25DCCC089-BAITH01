@@ -506,7 +506,7 @@ body {
   }
 }
 
-/* Breakpoint 2: Mobile (<= 576px) */
+
 @media (max-width: 576px) {
   .hamburger {
     display: block;
